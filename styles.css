@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(255, 46, 227);
-  font-family: 'Poppins', sans-serif;
+    /*set the background color to a light pink */
+  background-color: rgb(251, 143, 236);
+  /*changed font-family to "Caacupe One" from "Arial"*/
+  font-family: "Caacupe One", sans-serif;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -19,8 +22,9 @@ body {
 
 .btn {
   background-color: rgb(125, 63, 187);
-  border-radius: 5px;
-  border: none;
+  border-radius:10px;
+  /*added border color*/
+  border: 2px solid rgb(218, 184, 252);
   color: #fff;
   margin: 1rem;
   padding: 1.5rem 3rem;
@@ -30,6 +34,8 @@ body {
 }
 
 .btn:hover {
+    /*added hover color*/
+  color: rgb(231, 213, 249);
   opacity: 0.9;
 }
 
