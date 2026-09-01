@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    /*set the background color to a light pink */
+  background-color: rgb(251, 143, 236);
+  /*changed font-family to "Caacupe One" from "Arial"*/
+  font-family: "Caacupe One", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: rgb(125, 63, 187);
+  border-radius:10px;
+  /*added border color*/
+  border: 2px solid rgb(218, 184, 252);
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+    /*added hover color*/
+  color: rgb(231, 213, 249);
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
+}
